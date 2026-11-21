@@ -4,7 +4,7 @@ import MOVE
 pygame.init()
 screen = pygame.display.set_mode((1400,800))  #窗口的长，宽
 pygame.display.set_caption("ant_dueler")
-clock = pygame.Clock()
+clock = pygame.time.Clock()
 
 running = True
 
